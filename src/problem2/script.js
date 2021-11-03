@@ -30,7 +30,7 @@ const setButtonState = state => {
 }
 
 /** Handle Form Submit **/
-document.addEventListener('bouncerFormValid', function (e) {
+document.addEventListener('bouncerFormValid', e => {
   setButtonState(STATE_PENDING)
 
   // simulate async AJAX request
